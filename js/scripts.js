@@ -15,7 +15,7 @@ $(document).ready(function() {
   });
 
     if (answers[3] === "True") {
-      $(alert("Sunday River"));
+      location.href =('sundayriver.html');;
      } else {
       var netflix = 0;
       var brazil = 0;
@@ -32,11 +32,11 @@ $(document).ready(function() {
         netflix += 1;
       }
       if (brazil > netflix) {
-        $(alert("Brazil"));
+        location.href =('rio.html');;
         }
       else {
         if (netflix >= brazil) {
-          $(alert("Netflix and Chill"))
+          location.href =('netflix.html');;
         }
       }
       }
